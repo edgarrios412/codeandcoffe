@@ -48,105 +48,91 @@ const Landing = () => {
             <img className={style.benefitImg} src="src/assets/fast.png"></img>
             <div>
             <h3 className={style.benefitName}>Rápido desarrollo</h3>
-            <h4 className={style.benefitSubtitle}>Para que te confies</h4>
+            <h4 className={style.benefitSubtitle}>Tendrás tu web en una semana</h4>
             </div>
             </div>
-            <p className={style.benefitDesc}>Somos expertos en el desarollo, te garantizamos tu página en menos de una semana</p>
+            <p className={style.benefitDesc}>Utilizamos metodologías ágiles para acelerar el proceso y ofrecerte una solución lo más rápido posible.</p>
             </div>
             <div className={style.benefitContainer}>
               <div className={style.benefitHeader}>
             <img className={style.benefitImg} src="src/assets/approved64.png"></img>
             <div>
             <h3 className={style.benefitName}>Garantia</h3>
-            <h4 className={style.benefitSubtitle}>Para que te confies</h4>
+            <h4 className={style.benefitSubtitle}>Para que confies en nosotros</h4>
             </div>
             </div>
-            <p className={style.benefitDesc}>Somos expertos en el desarollo, te garantizamos tu página en menos de una semana</p>
+            <p className={style.benefitDesc}>Usamos tecnologías que permiten que el desarrollo sea confiable y este siempre disponible para tus clientes y para ti.</p>
             </div>
             <div className={style.benefitContainer}>
               <div className={style.benefitHeader}>
             <img className={style.benefitImg} src="src/assets/responsive.png"></img>
             <div>
             <h3 className={style.benefitName}>Diseño responsive</h3>
-            <h4 className={style.benefitSubtitle}>Para todo dispositivo</h4>
+            <h4 className={style.benefitSubtitle}>Se adapta a todo dispositivo</h4>
             </div>
             </div>
-            <p className={style.benefitDesc}>Somos expertos en el desarollo, te garantizamos tu página en menos de una semana</p>
+            <p className={style.benefitDesc}>Todas nuestras aplicaciones están diseñadas para que puedan visualizar en cualquier dispositivo.</p>
             </div>
             <div className={style.benefitContainer}>
               <div className={style.benefitHeader}>
             <img className={style.benefitImg} src="src/assets/rising.png"></img>
             <div>
             <h3 className={style.benefitName}>Evolución continua</h3>
-            <h4 className={style.benefitSubtitle}>Para que te confies</h4>
+            <h4 className={style.benefitSubtitle}>Con potencial de expandirse</h4>
             </div>
             </div>
-            <p className={style.benefitDesc}>Somos expertos en el desarollo, te garantizamos tu página en menos de una semana</p>
+            <p className={style.benefitDesc}>Hacemos aplicaciones escalables que te permitan agregar funcionalidades para ti y tus clientes.</p>
             </div>
             <div className={style.benefitContainer}>
               <div className={style.benefitHeader}>
             <img className={style.benefitImg} src="src/assets/technology.png"></img>
             <div>
             <h3 className={style.benefitName}>Tecnologias</h3>
-            <h4 className={style.benefitSubtitle}>Para que te confies</h4>
+            <h4 className={style.benefitSubtitle}>Las mas novedosas</h4>
             </div>
             </div>
-            <p className={style.benefitDesc}>Somos expertos en el desarollo, te garantizamos tu página en menos de una semana</p>
+            <p className={style.benefitDesc}>Nuestro equipo está en constante aprendizaje para estar a la vanguardia de todas tecnologías para el desarrollo de tu app.</p>
             </div>
             <div className={style.benefitContainer}>
               <div className={style.benefitHeader}>
             <img className={style.benefitImg} src="src/assets/attention.png"></img>
             <div>
-            <h3 className={style.benefitName}>Atención</h3>
-            <h4 className={style.benefitSubtitle}>Para que te confies</h4>
+            <h3 className={style.benefitName}>Soporte</h3>
+            <h4 className={style.benefitSubtitle}>Tú eres nuestra prioridad</h4>
             </div>
             </div>
-            <p className={style.benefitDesc}>Somos expertos en el desarollo, te garantizamos tu página en menos de una semana</p>
+            <p className={style.benefitDesc}>Tenemos a tu disposición un equipo que te brindará las soluciones acorde a tus necesidades</p>
             </div>
           </div>
       </div>
-
       <div className={style.view4}>
-        <h2 className={style.titleSection}>Nuestros servicios</h2>
-        {/* <div className={style.planesContainer}>
-          <div className={style.planBasic}>
-            <h3 className={style.titlePlan}>Basico</h3>
-            <h4 className={style.pricePlan}>99$</h4>
-            <ul className={style.ul}>
-            <li className={style.li}>Diseño básico con plantillas</li>
-            <li className={style.li}>Pocas páginas integradas</li>
-            <li className={style.li}>SEO básico y compatible con dispositivos móviles</li>
-            <li className={style.li}>Formulario de contacto básico</li>
-            <li className={style.li}>Configuración de alojamiento y dominio</li>
-            <li className={style.li}>Soporte técnico limitado</li>
-            </ul>
+        {/* <div className={style.statsContainer}>
+          <div className={style.stats}>
+            <p className={style.number}>+10</p>
+            <p className={style.text}>Clientes</p>
           </div>
-          <div className={style.planAdvanced}>
-          <h3 className={style.titlePlan}>Avanzado</h3>
-            <h4 className={style.pricePlan}>149$</h4>
-            <ul className={style.ul}>
-            <li className={style.liAdvanced}>Diseño avanzado y personalizado</li>
-            <li className={style.liAdvanced}>Mayor número de páginas y secciones</li>
-            <li className={style.liAdvanced}>Funcionalidad y características especiales</li>
-            <li className={style.liAdvanced}>SEO en todas las páginas</li>
-            <li className={style.liAdvanced}>Integración de CMS</li>
-            <li className={style.liAdvanced}>Configuración de alojamiento y dominio</li>
-            <li className={style.liAdvanced}>Soporte técnico extendido</li>
-            </ul>
+          <div className={style.stats}>
+            <p className={style.number}>+20</p>
+            <p className={style.text}>Proyectos</p>
           </div>
-          <div className={style.planPro}>
-          <h3 className={style.titlePlan}>Profesional</h3>
-            <h4 className={style.pricePlan}>249$</h4>
-            <ul className={style.ul}>
-            <li className={style.li}>Diseño exclusivo</li>
-            <li className={style.li}>Experiencia de usuario excepcional</li>
-            <li className={style.li}>Número ilimitado de páginas y secciones</li>
-            <li className={style.li}>Características y soluciones a medida</li>
-            <li className={style.li}>Configuración de alojamiento y dominio</li>
-            <li className={style.li}>Soporte técnico prioritario</li>
-            </ul>
+          <div className={style.stats}>
+            <p className={style.number}>+50</p>
+            <p className={style.text}>Clientes</p>
           </div>
         </div> */}
+        <div className={style.servicesContainer}>
+          <div className={style.services}>
+            <div className={style.serviceDetail}>Landing Page</div>
+            <div className={style.serviceDetail}>E-commerce</div>
+            <div className={style.serviceDetail}>Diseños responsivo</div>
+            <div className={style.serviceDetail}>Mantenimiento y soporte tecnico</div>
+          </div>
+          <div className={style.descriptionServices}>
+          <h2 className={style.titleServices}>Nuestros servicios</h2>
+          <h4 className={style.subtitleServices}>Estos son solo algunos ejemplos de los servicios que ofrecemos. Podemos adaptarnos a tus necesidades específicas y ofrecer soluciones personalizadas para alcanzar tus objetivos en línea.</h4>
+          <button className={style.buttonContact}>Quiero hablar con un asesor</button>
+          </div>
+        </div>
       </div>
       <div className={style.view2}>
         {/* <h2 className={style.titleSection}>Contactanos</h2> */}

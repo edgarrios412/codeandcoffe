@@ -48,12 +48,6 @@
     height: 100px;
 }
 
-.view4{
-    width: 100vw;
-    height: 90vh;
-    /* background-color: red; */
-}
-
 .titleSection{
     text-align: center;
     color:#2e186a;
@@ -175,7 +169,7 @@
 .descSectionPlanning{
     font-weight: 400;
     color: rgb(75, 75, 75);
-    font-size: 1.1em;
+    font-size: 1em;
     width: 320px;
 }
 
@@ -202,9 +196,9 @@
 }
 .benefitSubtitle{
     line-height: 0;
-    font-size: .95em;
-    color: rgb(72, 72, 72);
-    font-weight: 500;
+    font-size: .90em;
+    color: rgb(125, 125, 125);
+    font-weight: 450;
 }
 
 .benefitHeader{
@@ -235,70 +229,104 @@
     margin: 5px 30px;
     text-align: justify;
     height: 80px;
+    font-size: .95em;
     /* background-color: red; */
 
 }
 
-/* NUESTROS PLANES */
+/* NUESTROS SERVICIOS */
 
-.planesContainer{
-    /* background-color: red; */
-    margin-top: 50px;
+.view4{
     width: 100vw;
-    height: 65vh;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    gap: 10px;
-}
-.planBasic, .planPro{
-    width: 25vw;
-    height: 90%;
-    background-color: #d6d6d6;
-    border-radius: 10px;
-}
-
-.titlePlan{
-    font-size: 2em;
-    text-align: center;
-    line-height: 10px;
-}
-
-.pricePlan{
-    text-align: center;
-    font-size: 1.7em;
-    line-height: 0;
-    font-weight: 400;
-}
-
-.planAdvanced{
-    width: 28vw;
-    height: 100%;
-    color: rgb(255, 255, 255);
-    background-color: #fe7624;
-    border-radius: 10px;
-}
-
-.ul{
-    list-style: none;
-    margin: 0;
+    height: 90vh;
     /* background-color: red; */
 }
 
-.li{
-    margin: 0;
-    font-size: .9em;
-    color: rgb(63, 63, 63);
-    padding: 5px 0px;
+.statsContainer{
+    /* background-color: red; */
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.liAdvanced{
-    margin: 0;
-    font-size: .9em;
-    color: rgb(255, 255, 255);
-    padding: 5px 0px;
+.servicesContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
+.services{
+    /* background-color: red; */
+    width: 445px;
+    height: 450px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items:stretch;
+}
+
+.buttonContact{
+    transition: .3s;
+    background-color: #fe7624;
+    border-radius: 20px;
+    border:0;
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+    padding:10px 40px;
+    font-weight: 600;
+    cursor:pointer;
+    display: flex;
+}
+
+.buttonContact:hover{
+    color: white;
+}
+
+.titleServices{
+    font-size: 2.8em;
+    line-height: 0;
+}
+
+.subtitleServices{
+    width: 400px;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+    line-height: 30px;
+}
+
+.descriptionServices{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.serviceDetail{
+    width: 220px;
+    height: 220px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0;
+}
+
+.number{
+    font-weight: 800;
+    font-size: 2em;
+    color:orange;
+}
+
+.text{
+    font-weight: 500;
+    font-size: .95em;
+    color: grey;
+}
 
 /* CONTACTO */
 
