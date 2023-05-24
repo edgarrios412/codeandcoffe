@@ -14,7 +14,7 @@ const Landing = () => {
         <div>
           <div className={style.logoContainer}>
           <img className={style.logo} src={Coffe}></img>
-          {/* <h1 className={style.logoName}>Code and Coffe</h1> */}
+          {/* <h1 className={style.logoName}>Code & Coffee</h1> */}
           </div>
           <h2 className={style.eslogan}>Tu lo imaginas</h2>
           <b className={style.action}>Nosotros lo desarrollamos</b>
@@ -95,7 +95,7 @@ const Landing = () => {
             </div>
             <div className={style.benefitContainer}>
               <div className={style.benefitHeader}>
-            <img className={style.benefitImg} src="src/assets/attention.png"></img>
+            <img className={style.benefitImg} src="src/assets/customer-service.png"></img>
             <div>
             <h3 className={style.benefitName}>Soporte</h3>
             <h4 className={style.benefitSubtitle}>Tú eres nuestra prioridad</h4>
@@ -122,10 +122,18 @@ const Landing = () => {
         </div> */}
         <div className={style.servicesContainer}>
           <div className={style.services}>
-            <div className={style.serviceDetail}>Landing Page</div>
-            <div className={style.serviceDetail}>E-commerce</div>
-            <div className={style.serviceDetail}>Diseños responsivo</div>
-            <div className={style.serviceDetail}>Mantenimiento y soporte tecnico</div>
+            <div className={style.serviceDetail}>
+            <img className={style.iconService} src="src/assets/landing-page.png"></img>
+              Landing Page</div>
+            <div className={style.serviceDetail}>
+            <img className={style.iconService} src="src/assets/online-shop.png"></img>
+              Tienda en linea</div>
+            <div className={style.serviceDetail}>
+            <img className={style.iconService} src="src/assets/responsivelineal.png"></img>
+              Diseño responsive</div>
+            <div className={style.serviceDetail}>
+              <img className={style.iconService} src="src/assets/support.png"></img>
+              Mantenimiento y soporte tecnico</div>
           </div>
           <div className={style.descriptionServices}>
           <h2 className={style.titleServices}>Nuestros servicios</h2>
