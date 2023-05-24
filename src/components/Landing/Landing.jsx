@@ -35,13 +35,25 @@ const Landing = () => {
         <img className={style.devTeam} src={Team} />
         </div>
         <div className={style.reviews}>
+        <a className={style.noLink} target="_blank" href="https://www.linkedin.com/in/edgarrios412/">
           <div className={style.review}>
+            <div className={style.teamDesc}>
+              <p className={style.teamName}>Edgar Vilchez</p>
+              <p className={style.teamRole}>Desarrollador Web</p>
+            </div>
           <img className={style.teamUser} src="src/assets/edgar.png"></img>
           </div>
-          <div className={style.review}>
+          </a>
+          <a className={style.noLink} target="_blank" href="https://www.linkedin.com/in/diana-vargas-71276aa3/">
+            <div className={style.review}>
+          <div className={style.teamDesc}>
+              <p className={style.teamName}>Diana Vargas</p>
+              <p className={style.teamRole}>Product Owner</p>
+            </div>
             <img className={style.teamUser} src="src/assets/diana.png"></img>
           </div>
-          <a style={{textDecoration:"none"}} target="_blank" href="https://bait-one.vercel.app/"><div className={style.review}>
+          </a>
+          <a className={style.noLink} target="_blank" href="https://bait-one.vercel.app/"><div className={style.review2}>
             <p className={style.ultimoProyecto}>ULTIMO PROYECTO</p>
           </div></a>
         </div>
