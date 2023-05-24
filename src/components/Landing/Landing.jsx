@@ -124,16 +124,24 @@ const Landing = () => {
           <div className={style.services}>
             <div className={style.serviceDetail}>
             <img className={style.iconService} src="src/assets/landing-page.png"></img>
-              Landing Page</div>
+              <p className={style.nameService}>Landing Page</p>
+              <p className={style.descService}>La opción perfecta para atraer usuarios a tu negocio</p>
+              </div>
             <div className={style.serviceDetail}>
             <img className={style.iconService} src="src/assets/online-shop.png"></img>
-              Tienda en linea</div>
+            <p className={style.nameService}>Tienda en linea</p>
+            <p className={style.descService}>¿Necesitas una tienda en linea? Nosotros la hacemos por ti</p>
+              </div>
             <div className={style.serviceDetail}>
             <img className={style.iconService} src="src/assets/responsivelineal.png"></img>
-              Diseño responsive</div>
+            <p className={style.nameService}>Diseño responsive</p>
+            <p className={style.descService}>¿Tienes una web pero no se ve bien en dispositivos moviles?</p>
+              </div>
             <div className={style.serviceDetail}>
               <img className={style.iconService} src="src/assets/support.png"></img>
-              Mantenimiento y soporte tecnico</div>
+              <p className={style.nameService}>Mantenimiento y soporte tecnico</p>
+              <p className={style.descService}>Para un funcionamiento impecable.</p>
+              </div>
           </div>
           <div className={style.descriptionServices}>
           <h2 className={style.titleServices}>Nuestros servicios</h2>
