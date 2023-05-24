@@ -159,7 +159,7 @@
     box-shadow: 0px 0px 10px 5px rgba(65, 65, 65, 0.526);
     /* background-image: url("src/assets/edgar.png"); */
     transition: .3;
-    background-image: url("src/assets/bait.png");
+    /* background-image: url("src/assets/bait.png"); */
     background-size: 250px;
     filter: grayscale(1);
     transition: .3;

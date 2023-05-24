@@ -4,7 +4,25 @@ import Planning from "../../assets/devplaninglineal.png";
 import Team from "../../assets/devteamlineal.png";
 import Contact from "../../assets/devmobile.png"
 import Coffe from "../../assets/codecoffe.png"
+import Edgar from "../../assets/edgar.png"
+import Diana from "../../assets/diana.png"
 
+// PORQUE NOSOTROS
+import fast from "../../assets/fast.png"
+import approved64 from "../../assets/approved64.png"
+import responsive from "../../assets/responsive.png"
+import rising from "../../assets/rising.png"
+import technology from "../../assets/technology.png"
+import customerservice from "../../assets/customer-service.png"
+
+// SERVICIOS
+
+import landingpage from "../../assets/landing-page.png"
+import onlineshop from "../../assets/online-shop.png"
+import responsivelineal from "../../assets/responsivelineal.png"
+import support from "../../assets/support.png"
+
+import bait from "../../assets/bait.png"
 
 const Landing = () => {
   return (
@@ -41,7 +59,7 @@ const Landing = () => {
               <p className={style.teamName}>Edgar Vilchez</p>
               <p className={style.teamRole}>Desarrollador Web</p>
             </div>
-          <img className={style.teamUser} src="src/assets/edgar.png"></img>
+          <img className={style.teamUser} src={Edgar}></img>
           </div>
           </a>
           <a className={style.noLink} target="_blank" href="https://www.linkedin.com/in/diana-vargas-71276aa3/">
@@ -50,10 +68,11 @@ const Landing = () => {
               <p className={style.teamName}>Diana Vargas</p>
               <p className={style.teamRole}>Product Owner</p>
             </div>
-            <img className={style.teamUser} src="src/assets/diana.png"></img>
+            <img className={style.teamUser} src={Diana}></img>
           </div>
           </a>
-          <a className={style.noLink} target="_blank" href="https://bait-one.vercel.app/"><div className={style.review2}>
+          <a className={style.noLink} target="_blank" href="https://bait-one.vercel.app/">
+            <div style={{backgroundImage:`url(${bait})`}} className={style.review2}>
             <p className={style.ultimoProyecto}>ULTIMO PROYECTO</p>
           </div></a>
         </div>
@@ -63,7 +82,7 @@ const Landing = () => {
           <div className={style.benefits}>
             <div className={style.benefitContainer}>
               <div className={style.benefitHeader}>
-            <img className={style.benefitImg} src="src/assets/fast.png"></img>
+            <img className={style.benefitImg} src={fast}></img>
             <div>
             <h3 className={style.benefitName}>Rápido desarrollo</h3>
             <h4 className={style.benefitSubtitle}>Tendrás tu web en una semana</h4>
@@ -73,7 +92,7 @@ const Landing = () => {
             </div>
             <div className={style.benefitContainer}>
               <div className={style.benefitHeader}>
-            <img className={style.benefitImg} src="src/assets/approved64.png"></img>
+            <img className={style.benefitImg} src={approved64}></img>
             <div>
             <h3 className={style.benefitName}>Garantia</h3>
             <h4 className={style.benefitSubtitle}>Para que confies en nosotros</h4>
@@ -83,7 +102,7 @@ const Landing = () => {
             </div>
             <div className={style.benefitContainer}>
               <div className={style.benefitHeader}>
-            <img className={style.benefitImg} src="src/assets/responsive.png"></img>
+            <img className={style.benefitImg} src={responsive}></img>
             <div>
             <h3 className={style.benefitName}>Diseño responsive</h3>
             <h4 className={style.benefitSubtitle}>Se adapta a todo dispositivo</h4>
@@ -93,7 +112,7 @@ const Landing = () => {
             </div>
             <div className={style.benefitContainer}>
               <div className={style.benefitHeader}>
-            <img className={style.benefitImg} src="src/assets/rising.png"></img>
+            <img className={style.benefitImg} src={rising}></img>
             <div>
             <h3 className={style.benefitName}>Evolución continua</h3>
             <h4 className={style.benefitSubtitle}>Con potencial de expandirse</h4>
@@ -103,7 +122,7 @@ const Landing = () => {
             </div>
             <div className={style.benefitContainer}>
               <div className={style.benefitHeader}>
-            <img className={style.benefitImg} src="src/assets/technology.png"></img>
+            <img className={style.benefitImg} src={technology}></img>
             <div>
             <h3 className={style.benefitName}>Tecnologias</h3>
             <h4 className={style.benefitSubtitle}>Las mas novedosas</h4>
@@ -113,7 +132,7 @@ const Landing = () => {
             </div>
             <div className={style.benefitContainer}>
               <div className={style.benefitHeader}>
-            <img className={style.benefitImg} src="src/assets/customer-service.png"></img>
+            <img className={style.benefitImg} src={customerservice}></img>
             <div>
             <h3 className={style.benefitName}>Soporte</h3>
             <h4 className={style.benefitSubtitle}>Tú eres nuestra prioridad</h4>
@@ -127,22 +146,22 @@ const Landing = () => {
         <div className={style.servicesContainer}>
           <div className={style.services}>
             <div className={style.serviceDetail}>
-            <img className={style.iconService} src="src/assets/landing-page.png"></img>
+            <img className={style.iconService} src={landingpage}></img>
               <p className={style.nameService}>Landing Page</p>
               <p className={style.descService}>La opción perfecta para atraer usuarios a tu negocio</p>
               </div>
             <div className={style.serviceDetail}>
-            <img className={style.iconService} src="src/assets/online-shop.png"></img>
+            <img className={style.iconService} src={onlineshop}></img>
             <p className={style.nameService}>Tienda en linea</p>
             <p className={style.descService}>¿Necesitas una tienda en linea? Nosotros la hacemos por ti</p>
               </div>
             <div className={style.serviceDetail}>
-            <img className={style.iconService} src="src/assets/responsivelineal.png"></img>
+            <img className={style.iconService} src={responsivelineal}></img>
             <p className={style.nameService}>Diseño responsive</p>
             <p className={style.descService}>¿Tienes una web pero no se ve bien en dispositivos moviles?</p>
               </div>
             <div className={style.serviceDetail}>
-              <img className={style.iconService} src="src/assets/support.png"></img>
+              <img className={style.iconService} src={support}></img>
               <p className={style.nameService}>Mantenimiento y soporte tecnico</p>
               <p className={style.descService}>Para un funcionamiento impecable.</p>
               </div>
