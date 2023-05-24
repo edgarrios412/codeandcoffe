@@ -35,9 +35,15 @@ const Landing = () => {
         <img className={style.devTeam} src={Team} />
         </div>
         <div className={style.reviews}>
-          <div className={style.review}></div>
-          <div className={style.review}></div>
-          <div className={style.review}></div>
+          <div className={style.review}>
+          <img className={style.teamUser} src="src/assets/edgar.png"></img>
+          </div>
+          <div className={style.review}>
+            <img className={style.teamUser} src="src/assets/diana.png"></img>
+          </div>
+          <a style={{textDecoration:"none"}} target="_blank" href="https://bait-one.vercel.app/"><div className={style.review}>
+            <p className={style.ultimoProyecto}>ULTIMO PROYECTO</p>
+          </div></a>
         </div>
       </div>
       <div className={style.view3} id="prueba">
@@ -106,20 +112,6 @@ const Landing = () => {
           </div>
       </div>
       <div className={style.view4}>
-        {/* <div className={style.statsContainer}>
-          <div className={style.stats}>
-            <p className={style.number}>+10</p>
-            <p className={style.text}>Clientes</p>
-          </div>
-          <div className={style.stats}>
-            <p className={style.number}>+20</p>
-            <p className={style.text}>Proyectos</p>
-          </div>
-          <div className={style.stats}>
-            <p className={style.number}>+50</p>
-            <p className={style.text}>Clientes</p>
-          </div>
-        </div> */}
         <div className={style.servicesContainer}>
           <div className={style.services}>
             <div className={style.serviceDetail}>
@@ -147,6 +139,20 @@ const Landing = () => {
           <h2 className={style.titleServices}>Nuestros servicios</h2>
           <h4 className={style.subtitleServices}>Estos son solo algunos ejemplos de los servicios que ofrecemos. Podemos adaptarnos a tus necesidades específicas y ofrecer soluciones personalizadas para alcanzar tus objetivos en línea.</h4>
           <button className={style.buttonContact}>Quiero hablar con un asesor</button>
+          <div className={style.statsContainer}>
+          <div className={style.stats}>
+            <p className={style.number}>+10</p>
+            <p className={style.text}>Clientes</p>
+          </div>
+          <div className={style.stats}>
+            <p className={style.number}>+20</p>
+            <p className={style.text}>Proyectos</p>
+          </div>
+          <div className={style.stats}>
+            <p className={style.number}>+50</p>
+            <p className={style.text}>Clientes</p>
+          </div>
+        </div>
           </div>
         </div>
       </div>
