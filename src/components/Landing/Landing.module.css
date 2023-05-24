@@ -1,0 +1,336 @@
+.view1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: black; */
+}
+
+.developer{
+    height: 300px;
+    /* transform: scaleX(-1); */
+}
+
+.eslogan{
+    font-size: 4em;
+    width: 500px;
+    line-height: 0;
+    font-weight: 800;
+}
+
+.action{
+    line-height: 0;
+    font-size: 2.25em;
+    width: 500px;
+    color: #fe7624
+}
+
+.logoContainer{
+    margin-bottom: 45px;
+    width: 440px;
+    /* background-color: blue; */
+    display: flex;
+    /* align-items:flex-end; */
+    /* justify-content: space-between; */
+}
+
+.logoName{
+    margin-top: 43px;
+    font-size: 2.85em;
+    font-weight: 800;
+    color: #401c18;
+    /* background-color: red; */
+}
+
+.logo{
+    /* width: 100px; */
+    height: 100px;
+}
+
+.view4{
+    width: 100vw;
+    height: 90vh;
+    /* background-color: red; */
+}
+
+.titleSection{
+    text-align: center;
+    color:#2e186a;
+    font-size: 3em;
+    line-height: 20px;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.button{
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding:10px 35px;
+    font-weight: 600;
+    cursor:pointer;
+}
+
+.buttonAction:hover{
+    color: rgb(255, 255, 255);
+}
+
+.buttonAction{
+    transition: .3s;
+    background-color: #fe7624;
+    border-radius: 30px;
+    border:0;
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+    padding:10px 35px;
+    font-weight: 600;
+    cursor:pointer;
+}
+
+/* QUIENES SOMOS */
+
+.view2{
+    width: 100vw;
+    height: 90vh;
+    /* display: flex; */
+    
+    /* align-items: center; */
+    /* background-color: red; */
+}
+
+.textContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.devTeam{
+    height: 200px;
+    /* display: flex; */
+    /* margin: 0px auto; */
+}
+
+.descSection{
+    text-align: justify;
+    /* margin:10px auto; */
+    width: 550px;
+    font-weight: 300;
+    color: rgb(39, 39, 39);
+    /* background-color: red; */
+}
+
+.reviews{
+    margin-top: 35px;
+    background-color: red;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-size: 500px;
+    /* margin: 0px 100px; */
+    background-image: url("https://static.vecteezy.com/system/resources/previews/007/341/250/original/programming-and-developers-seamless-pattern-internet-and-coding-black-linear-print-with-computer-languages-vector.jpg");
+}
+
+.review{
+    background-color: rgb(255, 255, 255);
+    width: 290px;
+    height: 160px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px rgba(65, 65, 65, 0.526);
+}
+
+/* PORQUE ELEGIRNOS */
+
+.view3{
+    width: 100vw;
+    height: 90vh;
+    /* background-color: red; */
+}
+
+.devPlanning{
+    height: 200px;
+}
+
+.headerPlanning{
+    height: 80%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* gap: 50px; */
+}
+
+.subtitleSection{
+    line-height: 0;
+    font-size: 1.6em;
+    font-weight: 800;
+}
+
+.descSectionPlanning{
+    font-weight: 400;
+    color: rgb(75, 75, 75);
+    font-size: 1.1em;
+    width: 320px;
+}
+
+.benefits{
+    /* background-color: blue; */
+    height: 70%;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.benefitImg{
+    height: 40px;
+}
+
+.benefitName{
+    line-height: 0;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.benefitSubtitle{
+    line-height: 0;
+    font-size: .95em;
+    color: rgb(72, 72, 72);
+    font-weight: 500;
+}
+
+.benefitHeader{
+    padding: 0px 25px;
+    padding-top: 15px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.benefitContainer{
+    width:330px;
+    height: 180px;
+    border-radius: 10px;
+    /* background-color: red; */
+    box-shadow: 0px 0px 10px 5px rgba(177, 177, 177, 0.285);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.benefitContainer:hover{
+    background-color: #fff0d3;
+    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.285);
+}
+
+.benefitDesc{
+    color: rgb(102, 102, 102);
+    margin: 5px 30px;
+    text-align: justify;
+    height: 80px;
+    /* background-color: red; */
+
+}
+
+/* NUESTROS PLANES */
+
+.planesContainer{
+    /* background-color: red; */
+    margin-top: 50px;
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 10px;
+}
+.planBasic, .planPro{
+    width: 25vw;
+    height: 90%;
+    background-color: #d6d6d6;
+    border-radius: 10px;
+}
+
+.titlePlan{
+    font-size: 2em;
+    text-align: center;
+    line-height: 10px;
+}
+
+.pricePlan{
+    text-align: center;
+    font-size: 1.7em;
+    line-height: 0;
+    font-weight: 400;
+}
+
+.planAdvanced{
+    width: 28vw;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    background-color: #fe7624;
+    border-radius: 10px;
+}
+
+.ul{
+    list-style: none;
+    margin: 0;
+    /* background-color: red; */
+}
+
+.li{
+    margin: 0;
+    font-size: .9em;
+    color: rgb(63, 63, 63);
+    padding: 5px 0px;
+}
+
+.liAdvanced{
+    margin: 0;
+    font-size: .9em;
+    color: rgb(255, 255, 255);
+    padding: 5px 0px;
+}
+
+
+/* CONTACTO */
+
+.bannerContact{
+    display: flex;
+    width: 500px;
+    margin: 0px auto;
+    padding-top: 50px;
+}
+
+.titleContact{
+    font-size: 2.2em;
+    margin: 30px auto;
+    text-align: center;
+    width: 500px;
+    color: #2e186a;
+}
+
+.btnContact{
+    transition: .3s;
+    background-color: #fe7624;
+    border-radius: 30px;
+    border:0;
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+    padding:15px 50px;
+    font-weight: 600;
+    cursor:pointer;
+    margin: 0 auto;
+    display: flex;
+}
+
+.btnContact:hover{
+    color: white;
+}
