@@ -27,6 +27,30 @@ import bait from "../../assets/bait.png"
 const Landing = () => {
   return (
     <>
+      {/* <div className={style.publicidad}>
+      <img className={style.publiIMG} src={Dev}/>
+      <div style={{display:"flex", alignItems:"end"}}>
+        <img style={{height:"80px"}}src={Coffe}></img>
+        <div>
+      <p className={style.publiprincipal}>Tu lo imaginas</p>
+      <p className={style.publisecundario}>Nosotros lo desarrollamos</p>
+      </div>
+      </div>
+      <p className={style.publidesc}>El ganador obtendrá una página web sencilla para promocionar su marca personal o emprendimiento</p>
+      <div className={style.footerPubli}>
+      <div>
+      <div className={style.redessociales}>
+      <img  className={style.iconnn}src="https://static.vecteezy.com/system/resources/previews/016/716/448/non_2x/instagram-icon-free-png.png"></img>
+      <p className={style.nameRed}>@codeandcoffe_</p>
+      </div>
+      <div className={style.redessociales}>
+      <img className={style.iconnn2} src="https://static.vecteezy.com/system/resources/previews/015/337/689/non_2x/web-icon-web-sign-free-png.png"></img>
+      <p className={style.nameRed}>www.codeandcoffe.tech</p>
+      </div>
+      <p className={style.terms}>*Aplican terminos y condiciones</p>
+      </div>
+      </div>
+      </div> */}
       <div className={style.view1}>
         <img className={style.developer} src={Dev}></img>
         <div className={style.textoWelcome}>

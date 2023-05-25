@@ -541,6 +541,7 @@
     }
     .view4{
         height: 150vh;
+        /* width: 100%; */
     }
     .buttonContact{
         margin: 0 auto;
@@ -554,6 +555,7 @@
     .view1{
         flex-direction: column;
         justify-content: center;
+        width: 400px;
     }    
     .developer{
         height: 150px;
@@ -629,4 +631,84 @@
         width: 173px;
         height: 106px;
     }
+}
+
+
+/* PUBLICIDAD */
+
+.publicidad{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.publiIMG{
+    margin-top: 30px;
+    width: 400px;
+    margin-left: -90px;
+}
+
+.publiprincipal{
+    font-size: 3.7em;
+    width: 500px;
+    line-height: 0;
+    font-weight: 800;
+    /* margin: 0; */
+}
+
+.publisecundario{
+    margin: 0;
+    margin-top: -10px;
+    line-height: 0;
+    font-size: 2.07em;
+    width: 500px;
+    color: #fe7624;
+    font-weight: 600;
+}
+
+.publidesc{
+    font-weight: 500;
+    width: 400px;
+    text-align: justify;
+    /* background-color: red; */
+    margin-left: -100px;
+    margin-top: 60px;
+    font-size: 1.5em;
+
+}
+
+.footerPubli{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(116, 6, 6); */
+    width: 500px;
+    margin-left: -50px;
+    align-items: end;
+}
+
+.redessociales{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.iconnn{
+    width: 50px;
+}
+.iconnn2{
+    width: 50px;
+}
+
+.nameRed{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.terms{
+    font-size: .85em;
+    font-weight: 400;
+    margin-top: 0px;
 }
