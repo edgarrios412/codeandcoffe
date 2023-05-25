@@ -490,3 +490,143 @@
 .btnContact:hover{
     color: white;
 }
+
+
+/* DISEÑO RESPONSIVO MOBILE */
+
+@media screen and (max-width: 1000px){
+    .view1{
+        flex-direction: column;
+        justify-content: center;
+    }    
+    .developer{
+        height: 200px;
+    }
+    .logo{
+        display: none;
+    }
+    .textContainer{
+        flex-direction: column;
+    }
+    .view2{
+        height: 120vh;
+    }
+    .review, .review2{
+        width: 173px;
+        height: 103px;
+    }
+    .teamUser{
+        width: 173px;
+    }
+    .teamDesc{
+        margin-top: -25px;
+        width: 173px;
+        height: 103px;
+    }
+    .ultimoProyecto{
+        font-size: 1.5em;
+        margin-top: 15px;
+    }
+    .teamRole{
+        width: 100%;
+    }
+    .view3{
+        height: 200vh;
+    }
+    .benefits{
+        width: 330px;
+        flex-flow: column nowrap;
+        gap:30px;
+        margin: 50px auto;
+    }
+    .view4{
+        height: 150vh;
+    }
+    .buttonContact{
+        margin: 0 auto;
+    }
+    .servicesContainer{
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .view1{
+        flex-direction: column;
+        justify-content: center;
+    }    
+    .developer{
+        height: 150px;
+    }
+    .textoWelcome{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .paracentrar{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        width: 300px;
+    }
+    .eslogan{
+        display: flex;
+        font-size: 2.8em;
+        align-items: center;
+        /* width: 400px; */
+    }
+    .action{
+        font-size: 1.55em;
+        /* width: 400px; */
+    }
+    .buttons{
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .buttonAction{
+        width: 300px;
+    }
+    .button{
+        width: 300px;
+    }
+    .logo{
+        display: none;
+    }
+    .view2{
+        height: 135vh;
+    }
+    .titleSection{
+        font-size: 2.5em;
+    }
+    .descSection{
+        font-size: .9em;
+        width:430px;
+    }
+    .reviews{
+        flex-direction: column;
+        height: 65vh;
+    }
+    .teamDesc{
+        width: 173px;
+        height: 103px;
+        margin-top: -20px;
+    }
+    .teamRole{
+        width: 173px;
+    }
+    .ultimoProyecto{
+        font-size: 1.5em;
+        margin-top: 15px;
+    }
+    .review{
+        width: 173px;
+        height: 106px;
+    }
+    .teamUser{
+        width: 173px;
+    }
+    .review2{
+        width: 173px;
+        height: 106px;
+    }
+}

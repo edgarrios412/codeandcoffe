@@ -29,15 +29,19 @@ const Landing = () => {
     <>
       <div className={style.view1}>
         <img className={style.developer} src={Dev}></img>
-        <div>
+        <div className={style.textoWelcome}>
           <div className={style.logoContainer}>
           <img className={style.logo} src={Coffe}></img>
           {/* <h1 className={style.logoName}>Code & Coffee</h1> */}
           </div>
+          <div className={style.paracentrar}>
           <h2 className={style.eslogan}>Tu lo imaginas</h2>
           <b className={style.action}>Nosotros lo desarrollamos</b>
+          </div>
           <div className={style.buttons}>
-          <a href="#prueba" style={{textDecoration:"none"}}><button className={style.buttonAction}>Consultar servicios</button></a>
+          <a href="#servicios" style={{textDecoration:"none"}}>
+            <button className={style.buttonAction}>Consultar servicios</button>
+          </a>
             <button className={style.button}>Nuestro trabajo</button>
           </div>
         </div>
@@ -47,7 +51,7 @@ const Landing = () => {
         <div>
         <h2 className={style.titleSection}>¿Quienes somos?</h2>
         <h3 className={style.descSection}>
-        <b style={{fontWeight:"600"}}>Code and Coffe</b> es tu aliado en el mundo digital. Creamos soluciones personalizadas para impulsar tu presencia en línea. Desde páginas web atractivas hasta tiendas en línea de alto rendimiento, te ayudamos a convertir tus ideas en realidad. Nuestro enfoque se basa en la innovación, calidad y satisfacción del cliente. Únete a nosotros y descubre el poder de lo digital.
+        <b style={{fontWeight:"600"}}>Code and Coffee</b> es tu aliado en el mundo digital. Creamos soluciones personalizadas para impulsar tu presencia en línea. Desde páginas web atractivas hasta tiendas en línea de alto rendimiento, te ayudamos a convertir tus ideas en realidad. Nuestro enfoque se basa en la innovación, calidad y satisfacción del cliente. Únete a nosotros y descubre el poder de lo digital.
         </h3>
         </div>
         <img className={style.devTeam} src={Team} />
@@ -85,7 +89,7 @@ const Landing = () => {
             <img className={style.benefitImg} src={fast}></img>
             <div>
             <h3 className={style.benefitName}>Rápido desarrollo</h3>
-            <h4 className={style.benefitSubtitle}>Tendrás tu web en una semana</h4>
+            <h4 className={style.benefitSubtitle}>Los más rapidos del mercado</h4>
             </div>
             </div>
             <p className={style.benefitDesc}>Utilizamos metodologías ágiles para acelerar el proceso y ofrecerte una solución lo más rápido posible.</p>
@@ -95,7 +99,7 @@ const Landing = () => {
             <img className={style.benefitImg} src={approved64}></img>
             <div>
             <h3 className={style.benefitName}>Garantia</h3>
-            <h4 className={style.benefitSubtitle}>Para que confies en nosotros</h4>
+            <h4 className={style.benefitSubtitle}>Protegemos tu dinero</h4>
             </div>
             </div>
             <p className={style.benefitDesc}>Usamos tecnologías que permiten que el desarrollo sea confiable y este siempre disponible para tus clientes y para ti.</p>
@@ -104,7 +108,7 @@ const Landing = () => {
               <div className={style.benefitHeader}>
             <img className={style.benefitImg} src={responsive}></img>
             <div>
-            <h3 className={style.benefitName}>Diseño responsive</h3>
+            <h3 className={style.benefitName}>Diseño responsivo</h3>
             <h4 className={style.benefitSubtitle}>Se adapta a todo dispositivo</h4>
             </div>
             </div>
@@ -142,7 +146,7 @@ const Landing = () => {
             </div>
           </div>
       </div>
-      <div className={style.view4}>
+      <div className={style.view4} id="servicios">
         <div className={style.servicesContainer}>
           <div className={style.services}>
             <div className={style.serviceDetail}>
@@ -169,7 +173,7 @@ const Landing = () => {
           <div className={style.descriptionServices}>
           <h2 className={style.titleServices}>Nuestros servicios</h2>
           <h4 className={style.subtitleServices}>Estos son solo algunos ejemplos de los servicios que ofrecemos. Podemos adaptarnos a tus necesidades específicas y ofrecer soluciones personalizadas para alcanzar tus objetivos en línea.</h4>
-          <button className={style.buttonContact}>Quiero hablar con un asesor</button>
+          <button className={style.buttonContact}>Empecemos a trabajar</button>
           <div className={style.statsContainer}>
           <div className={style.stats}>
             <p className={style.number}>+10</p>
@@ -181,7 +185,7 @@ const Landing = () => {
           </div>
           <div className={style.stats}>
             <p className={style.number}>+50</p>
-            <p className={style.text}>Clientes</p>
+            <p className={style.text}>Ventas</p>
           </div>
         </div>
           </div>
@@ -190,7 +194,7 @@ const Landing = () => {
       <div className={style.view2}>
         {/* <h2 className={style.titleSection}>Contactanos</h2> */}
         <img className={style.bannerContact} src={Contact}></img>
-        <h3 className={style.titleContact}>¡Habla con nuestra asesora y empecemos a trabajar!</h3>
+        <h3 className={style.titleContact}>¡Comunicate con nosotros y empecemos a trabajar!</h3>
         <a style={{textDecoration:"none"}} target="_blank" href="https://wa.me/message/XIQJNGRQG35XE1"><button className={style.btnContact}>Contacto</button></a>
       </div>
     </>
