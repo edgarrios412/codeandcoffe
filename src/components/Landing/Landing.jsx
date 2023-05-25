@@ -26,7 +26,7 @@ import bait from "../../assets/bait.png"
 
 const Landing = () => {
   return (
-    <>
+    <div className={style.elpapa}>
       {/* <div className={style.publicidad}>
       <img className={style.publiIMG} src={Dev}/>
       <div style={{display:"flex", alignItems:"end"}}>
@@ -221,7 +221,7 @@ const Landing = () => {
         <h3 className={style.titleContact}>¡Comunicate con nosotros y empecemos a trabajar!</h3>
         <a style={{textDecoration:"none"}} target="_blank" href="https://wa.me/message/XIQJNGRQG35XE1"><button className={style.btnContact}>Contacto</button></a>
       </div>
-    </>
+    </div>
   );
 };
 
