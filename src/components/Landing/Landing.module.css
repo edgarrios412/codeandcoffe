@@ -502,7 +502,7 @@
         flex-direction: column;
     }
     .view2{
-        height: 120vh;
+        height: fit-content;
         width: 100%;
     }
     .review, .review2{
@@ -525,7 +525,7 @@
         width: 100%;
     }
     .view3{
-        height: 200vh;
+        height: fit-content;
         width: 100%;
     }
     .benefits{
@@ -535,7 +535,7 @@
         margin: 50px auto;
     }
     .view4{
-        height: 150vh;
+        height: 120vh;
         width: 100%;
     }
     .buttonContact{
@@ -672,7 +672,7 @@
         display: none;
     }
     .view2{
-        height: 135vh;
+        height: 115vh;
     }
     .titleSection{
         font-size: 2.5em;
