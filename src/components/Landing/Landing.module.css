@@ -228,7 +228,7 @@
 .view3{
     width: 100vw;
     height: 90vh;
-    /* background-color: red; */
+    background-color: red;
 }
 
 .devPlanning{
@@ -607,6 +607,90 @@
     .reviews{
         flex-direction: column;
         height: 65vh;
+    }
+    .teamDesc{
+        width: 173px;
+        height: 103px;
+        margin-top: -20px;
+    }
+    .teamRole{
+        width: 173px;
+    }
+    .ultimoProyecto{
+        font-size: 1.5em;
+        margin-top: 15px;
+    }
+    .review{
+        width: 173px;
+        height: 106px;
+    }
+    .teamUser{
+        width: 173px;
+    }
+    .review2{
+        width: 173px;
+        height: 106px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .view1{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        background-color: red;
+    }    
+    .developer{
+        height: 150px;
+    }
+    .textoWelcome{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .paracentrar{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        width: 300px;
+    }
+    .eslogan{
+        display: flex;
+        font-size: 2.8em;
+        align-items: center;
+        /* width: 400px; */
+    }
+    .action{
+        font-size: 1.55em;
+        /* width: 400px; */
+    }
+    .buttons{
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .buttonAction{
+        width: 300px;
+    }
+    .button{
+        width: 300px;
+    }
+    .logo{
+        display: none;
+    }
+    .view2{
+        height: 135vh;
+    }
+    .titleSection{
+        font-size: 2.5em;
+    }
+    .descSection{
+        font-size: .9em;
+        width:430px;
+    }
+    .reviews{
+        flex-direction: column;
+        height: 65vh;
+        width: 100vw;
     }
     .teamDesc{
         width: 173px;
