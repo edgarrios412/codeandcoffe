@@ -630,6 +630,12 @@
 }
 
 @media screen and (max-width: 550px){
+    .view4{
+        margin-bottom: 100px;
+    }
+    .view3{
+        margin-top: 100px;
+    }
     .view1{
         flex-direction: column;
         justify-content: center;
@@ -672,7 +678,7 @@
         display: none;
     }
     .view2{
-        height: 115vh;
+        height: fit-content;
     }
     .titleSection{
         font-size: 2.5em;
