@@ -197,7 +197,7 @@ const Landing = () => {
           <div className={style.descriptionServices}>
           <h2 className={style.titleServices}>Nuestros servicios</h2>
           <h4 className={style.subtitleServices}>Estos son solo algunos ejemplos de los servicios que ofrecemos. Podemos adaptarnos a tus necesidades específicas y ofrecer soluciones personalizadas para alcanzar tus objetivos en línea.</h4>
-          <button className={style.buttonContact}>Empecemos a trabajar</button>
+          <a className={style.noLink} href="#cotizar"><button className={style.buttonContact}>Empecemos a trabajar</button></a>
           <div className={style.statsContainer}>
           <div className={style.stats}>
             <p className={style.number}>+10</p>
