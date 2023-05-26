@@ -51,7 +51,7 @@ const Landing = () => {
       </div>
       </div>
       </div> */}
-      <div className={style.view1}>
+      <div className={style.view1} id="inicio">
         <img className={style.developer} src={Dev}></img>
         <div className={style.textoWelcome}>
           <div className={style.logoContainer}>
@@ -66,11 +66,11 @@ const Landing = () => {
           <a href="#servicios" style={{textDecoration:"none"}}>
             <button className={style.buttonAction}>Consultar servicios</button>
           </a>
-            <button className={style.button}>Nuestro trabajo</button>
+            <a href="#trabajos" className={style.noLink}><button className={style.button}>Nuestro trabajo</button></a>
           </div>
         </div>
       </div>
-      <div className={style.view2}>
+      <div className={style.view2} id="trabajos">
         <div className={style.textContainer}>
         <div>
         <h2 className={style.titleSection}>¿Quienes somos?</h2>
@@ -215,7 +215,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      <div className={style.view2}>
+      <div className={style.view2} id="cotizar">
         {/* <h2 className={style.titleSection}>Contactanos</h2> */}
         <img className={style.bannerContact} src={Contact}></img>
         <h3 className={style.titleContact}>¡Comunicate con nosotros y empecemos a trabajar!</h3>

@@ -24,6 +24,14 @@
     transition: .3s;
 }
 
+.noLink{
+    text-decoration: none;
+}
+
+.noLink:visited{
+    color: black;
+}
+
 .buttonCotizar:hover{
     height:65%;
     background-color: #401c18;
